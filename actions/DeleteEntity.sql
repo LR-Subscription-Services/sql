@@ -9,7 +9,7 @@ declare @EntityId int
 declare @EntityName varchar(50)
 
 
-Set @EntityName = '%ToBeRetired%'
+Set @EntityName = '%ToBeDeleted%'
 
 DECLARE EntityCursor CURSOR
 FOR Select entityid
